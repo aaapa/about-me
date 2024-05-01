@@ -1,0 +1,39 @@
+.icon {
+  display: inline-block;
+}
+
+.icon.vk {
+  width: 38px;
+  height: 22px;
+  background: url("vk.svg") 0% 0% / cover no-repeat;
+}
+
+.icon.git-hub {
+  width: 38px;
+  height: 38px;
+  background: url("git-hub.svg") 0% 0% / cover no-repeat;
+}
+
+.icon.telegram {
+  width: 38px;
+  height: 38px;
+  background: url("telegram.svg") 0% 0% / cover no-repeat;
+}
+
+.icon.instagram {
+  width: 38px;
+  height: 38px;
+  background: url("instagram.svg") 0% 0% / cover no-repeat;
+}
+
+.icon.linked-in {
+  width: 38px;
+  height: 38px;
+  background: url("linked-in.svg") 0% 0% / cover no-repeat;
+}
+
+.icon.twitter {
+  width: 38px;
+  height: 30px;
+  background: url("twitter.svg") 0% 0% / cover no-repeat;
+}

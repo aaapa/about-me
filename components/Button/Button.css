@@ -1,0 +1,43 @@
+.button {
+  color: var(--white);
+  text-align: center;
+  text-decoration: unset;
+  font-weight: 500;
+  font-size: 1.125rem;
+  font-family: "Roboto-Medium";
+  letter-spacing: var(--letterSpacing);
+  background-color: var(--accent);
+  padding-block: 20px;
+  padding-inline: 30px;
+  border-radius: 5px;
+  border: unset;
+}
+
+@media (hover:hover) {
+  .button:hover {
+    background-color: #6565D38A;
+  }
+}
+
+.button:active {
+  transform: translateY(10px);
+}
+
+.button.--disabled {
+  opacity: 0.5;
+}
+
+@media (hover:hover) {
+  .button.--disabled:hover {
+    cursor: default;
+    background-color: var(--accent);
+  }
+}
+
+.button.--disabled:focus-visible {
+  outline: unset;
+}
+
+.button.--disabled:active {
+  transform: translateY(0px);
+}

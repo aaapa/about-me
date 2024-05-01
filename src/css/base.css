@@ -1,0 +1,104 @@
+@import url("reset.css");
+@import url("modern-normalize.css");
+
+/* components */
+
+@import url("../../components/Header/Header.css");
+@import url("../../components/Logo/Logo.css");
+@import url("../../components/Button/Button.css");
+@import url("../../components/Footer/Footer.css");
+@import url("../../components/Copyright/Copyright.css");
+@import url("../../components/Title/Title.css");
+
+/* components */
+
+/* blocks */
+
+@import url("../../blocks/about/about.css");
+@import url("../../blocks/projects/projects.css");
+@import url("../../blocks/skills/skills.css");
+
+/* blocks */
+
+/* icons */
+
+@import url("../imgs/icons/icons.css");
+
+/* icons */
+
+/* fonts */
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto/Roboto-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto/Roboto-Medium.woff2");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto/Roboto-Bold.woff2");
+}
+
+/* fonts */
+
+:root {
+  /* colors */
+
+  --white: white;
+  --black: #171718;
+  --purple: #5C62EC;
+  --blackBorder: #26292D;
+  --accent: var(--purple);
+
+  /* colors */
+
+  --hoverOpacity: 0.7;
+  --activeScale: 0.9;
+  --securePadding: 20px;
+  --letterSpacing: -0.5px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  color: var(--pageText);
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  font-family: "Roboto-Regular";
+}
+
+html.--lock {
+  overflow: clip;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.fullscreen {
+  min-height: 100dvh;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  background-color: inherit;
+}
